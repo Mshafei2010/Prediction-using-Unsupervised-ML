@@ -11,6 +11,7 @@ iris_df= pd.DataFrame(iris.data , columns=iris.feature_names)
 print("data imported")
 print(iris_df.head())
 
+
 #DETERMINING THE OPTIMUM NUMBER OF CLUSTERS USING THE ELBOW METHOD
 x=iris_df.iloc[:,[0,1,2,3]].values
 wcss=[]
